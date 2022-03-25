@@ -1,0 +1,15 @@
+Observações:
+a) Sugere-se o desenvolvimento de um programa na linguagem de sua preferência,
+com uma interface também de sua preferência podendo ser gráfica ou
+textual/console, com um menu com as opções enumeradas nos requisitos;
+b) Juntamente a este enunciado foi fornecido um arquivo no formato CSV contendo
+nomes, CPFs, datas em um formato tabular, valores em decimais;
+c) Você deve escrever o código que lê o arquivo e armazena os dados lidos em
+memória (do jeito que você quiser).
+d) Não é necessário gravar dados em nenhum formato, nem usar sistemas de banco
+de dados.
+e) O programa deverá lidar com dados de entrada inválidos e informar uma mensagem
+adequada caso ocorram.
+f) Para facilitar, não é necessário lidar com a acentuação de palavras.
+g) Na escrita do relatório apresente comentários sobre como você realizou os testes.
+Não esqueça de incluir uma autoavaliação.
