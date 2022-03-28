@@ -1,0 +1,115 @@
+package entities;
+
+public class Bolsista {
+
+	private String NM_BOLSISTA;
+	private String CPF_BOLSISTA;
+	private String NM_ENTIDADE_ENSINO;
+	private String ME_REFERENCIA;
+	private String SG_DIRETORIA;
+	private String SG_SISTEMA_ORIGEM;
+	private String CD_MODALIDADE_SGB;
+	private String DS_MODALIDADE_PAGAMENTO;
+	private String CD_MOEDA;
+	private String VL_BOLSISTA_PAGAMENTO;
+
+	public Bolsista() {
+	}
+
+	public Bolsista(String nM_BOLSISTA, String cPF_BOLSISTA, String nM_ENTIDADE_ENSINO, String mE_REFERENCIA,
+			String sG_DIRETORIA, String sG_SISTEMA_ORIGEM, String cD_MODALIDADE_SGB, String dS_MODALIDADE_PAGAMENTO,
+			String cD_MOEDA, String vL_BOLSISTA_PAGAMENTO) {
+		super();
+		NM_BOLSISTA = nM_BOLSISTA;
+		CPF_BOLSISTA = cPF_BOLSISTA;
+		NM_ENTIDADE_ENSINO = nM_ENTIDADE_ENSINO;
+		ME_REFERENCIA = mE_REFERENCIA;
+		SG_DIRETORIA = sG_DIRETORIA;
+		SG_SISTEMA_ORIGEM = sG_SISTEMA_ORIGEM;
+		CD_MODALIDADE_SGB = cD_MODALIDADE_SGB;
+		DS_MODALIDADE_PAGAMENTO = dS_MODALIDADE_PAGAMENTO;
+		CD_MOEDA = cD_MOEDA;
+		VL_BOLSISTA_PAGAMENTO = vL_BOLSISTA_PAGAMENTO;
+	}
+
+	public String getNM_BOLSISTA() {
+		return NM_BOLSISTA;
+	}
+
+	public void setNM_BOLSISTA(String nM_BOLSISTA) {
+		NM_BOLSISTA = nM_BOLSISTA;
+	}
+
+	public String getCPF_BOLSISTA() {
+		return CPF_BOLSISTA;
+	}
+
+	public void setCPF_BOLSISTA(String cPF_BOLSISTA) {
+		CPF_BOLSISTA = cPF_BOLSISTA;
+	}
+
+	public String getNM_ENTIDADE_ENSINO() {
+		return NM_ENTIDADE_ENSINO;
+	}
+
+	public void setNM_ENTIDADE_ENSINO(String nM_ENTIDADE_ENSINO) {
+		NM_ENTIDADE_ENSINO = nM_ENTIDADE_ENSINO;
+	}
+
+	public String getME_REFERENCIA() {
+		return ME_REFERENCIA;
+	}
+
+	public void setME_REFERENCIA(String mE_REFERENCIA) {
+		ME_REFERENCIA = mE_REFERENCIA;
+	}
+
+	public String getSG_DIRETORIA() {
+		return SG_DIRETORIA;
+	}
+
+	public void setSG_DIRETORIA(String sG_DIRETORIA) {
+		SG_DIRETORIA = sG_DIRETORIA;
+	}
+
+	public String getSG_SISTEMA_ORIGEM() {
+		return SG_SISTEMA_ORIGEM;
+	}
+
+	public void setSG_SISTEMA_ORIGEM(String sG_SISTEMA_ORIGEM) {
+		SG_SISTEMA_ORIGEM = sG_SISTEMA_ORIGEM;
+	}
+
+	public String getCD_MODALIDADE_SGB() {
+		return CD_MODALIDADE_SGB;
+	}
+
+	public void setCD_MODALIDADE_SGB(String cD_MODALIDADE_SGB) {
+		CD_MODALIDADE_SGB = cD_MODALIDADE_SGB;
+	}
+
+	public String getDS_MODALIDADE_PAGAMENTO() {
+		return DS_MODALIDADE_PAGAMENTO;
+	}
+
+	public void setDS_MODALIDADE_PAGAMENTO(String dS_MODALIDADE_PAGAMENTO) {
+		DS_MODALIDADE_PAGAMENTO = dS_MODALIDADE_PAGAMENTO;
+	}
+
+	public String getCD_MOEDA() {
+		return CD_MOEDA;
+	}
+
+	public void setCD_MOEDA(String cD_MOEDA) {
+		CD_MOEDA = cD_MOEDA;
+	}
+
+	public String getVL_BOLSISTA_PAGAMENTO() {
+		return VL_BOLSISTA_PAGAMENTO;
+	}
+
+	public void setVL_BOLSISTA_PAGAMENTO(String vL_BOLSISTA_PAGAMENTO) {
+		VL_BOLSISTA_PAGAMENTO = vL_BOLSISTA_PAGAMENTO;
+	}
+
+}
