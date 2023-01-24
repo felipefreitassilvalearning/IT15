@@ -46,10 +46,10 @@ public class ConsultarMediaAnual {
 						System.out.println("/=============================================\\");
 						System.out.println("| Total de bolsistas em " + anoProcurado + ": " + amountBolsistasAno);
 						System.out.println("| Total de bolsas no ano: R$ " + valorBolsa);
-						System.out.println("| Valor mÈdio de cada bolsa: R$ " + mediaBolsa);
+						System.out.println("| Valor m√©dio de cada bolsa: R$ " + mediaBolsa);
 						System.out.println("\\=============================================/");
 					} else {
-						System.out.println("Infelizmente, n„o h· bolsistas em " + anoProcurado + ".");
+						System.out.println("Infelizmente, n√£o h√° bolsistas em " + anoProcurado + ".");
 					}
 				}
 			} catch (FileNotFoundException e) {

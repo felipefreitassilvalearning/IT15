@@ -60,15 +60,15 @@ public class RankingValoresDeBolsa {
 				}
 
 				System.out.println("/================================================\\");
-				System.out.println("| Três alunos com os valores da bolsa mais altos");
-				System.out.println("| 1º - " + maiorBolsista1 + " - R$ " + maiorBolsa1);
-				System.out.println("| 2º - " + maiorBolsista2 + " - R$ " + maiorBolsa2);
-				System.out.println("| 3º - " + maiorBolsista3 + " - R$ " + maiorBolsa3);
+				System.out.println("| TrÃªs alunos com os valores da bolsa mais altos");
+				System.out.println("| 1Âº - " + maiorBolsista1 + " - R$ " + maiorBolsa1);
+				System.out.println("| 2Âº - " + maiorBolsista2 + " - R$ " + maiorBolsa2);
+				System.out.println("| 3Âº - " + maiorBolsista3 + " - R$ " + maiorBolsa3);
 				System.out.println("|");
-				System.out.println("| Três alunos com os valores da bolsa mais baixos");
-				System.out.println("| 1º - " + menorBolsista1 + " - R$ " + menorBolsa1);
-				System.out.println("| 2º - " + menorBolsista2 + " - R$ " + menorBolsa2);
-				System.out.println("| 3º - " + menorBolsista3 + " - R$ " + menorBolsa3);
+				System.out.println("| TrÃªs alunos com os valores da bolsa mais baixos");
+				System.out.println("| 1Âº - " + menorBolsista1 + " - R$ " + menorBolsa1);
+				System.out.println("| 2Âº - " + menorBolsista2 + " - R$ " + menorBolsa2);
+				System.out.println("| 3Âº - " + menorBolsista3 + " - R$ " + menorBolsa3);
 				System.out.println("\\================================================/");
 			}
 		} catch (FileNotFoundException e) {

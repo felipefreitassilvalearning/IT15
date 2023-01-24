@@ -13,10 +13,10 @@ public class Main {
 						System.out.println("\n/=======================================================\\");
 						System.out.println("|	BEM-VINDO AO PROGRAMA	");
 						System.out.println("|");
-						System.out.println("| ESCOLHA UMA DAS OPÇÕES ABAIXO PARA INICIAR	");
-						System.out.println("| (1) INFORMAÇÕES SOBRE O PRIMEIRO BOLSISTA DE UM ANO	");
+						System.out.println("| ESCOLHA UMA DAS OPÃ‡Ã•ES ABAIXO PARA INICIAR	");
+						System.out.println("| (1) INFORMAÃ‡Ã•ES SOBRE O PRIMEIRO BOLSISTA DE UM ANO	");
 						System.out.println("| (2) BUSCAR BOLSISTA E CODIFICAR NOME	");
-						System.out.println("| (3) CONSULTAR MÉDIA ANUAL	");
+						System.out.println("| (3) CONSULTAR MÃ‰DIA ANUAL	");
 						System.out.println("| (4) RANKING VALORES DE BOLSA	");
 						System.out.println("| (5) TERMINAR O PROGRAMA	");
 						System.out.println("\\======================================================/");
@@ -24,7 +24,7 @@ public class Main {
 						
 						switch (escolha) {
 							default:
-								System.out.println("Valor inválido. Tente Novamente.");
+								System.out.println("Valor invÃ¡lido. Tente Novamente.");
 								break;
 							case 1:
 								ConsultarBolsaZeroAno.main(args);

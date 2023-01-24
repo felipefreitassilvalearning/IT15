@@ -42,7 +42,7 @@ public class ConsultarBolsaZeroAno {
 					}
 
 					if (!haBolsista) {
-						System.out.println("Infelizmente, n�o h� bolsistas em " + anoProcurado + ".");
+						System.out.println("Infelizmente, não há bolsistas em " + anoProcurado + ".");
 					}
 
 				}

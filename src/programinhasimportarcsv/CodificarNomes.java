@@ -8,19 +8,25 @@ public class CodificarNomes {
 	public static void main(String args[]) {
 
 		try (Scanner input = new Scanner(System.in)) {
+
 			String name = "";
+
 			String reverseName = "";
 
 			System.out.print("Digite aqui o nome do bolsista que procura: ");
+
 			name = input.nextLine().toUpperCase();
 
 			if (name.length() <= 3) {
+
 				for (int i = name.length() - 1; i >= 0; i--) {
 					reverseName = reverseName + name.charAt(i);
 				}
-			} else {
+			} else 
+
 				char firstLetter = 32;
 				char lastLetter = 32;
+				
 				for (int j = name.length() - 1; j >= 0; j--) {
 					if (j == name.length() - 1) {
 						lastLetter = name.charAt(j);
@@ -71,7 +77,7 @@ public class CodificarNomes {
 					}
 					
 					if (!haBolsista) {
-						System.out.println("Infelizmente, não há bolsistas em " + anoProcurado + ".");
+						System.out.println("Infelizmente, nï¿½o hï¿½ bolsistas em " + anoProcurado + ".");
 					}
 					
 				}
