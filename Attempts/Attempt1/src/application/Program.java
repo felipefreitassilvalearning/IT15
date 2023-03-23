@@ -7,14 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import entities.Bolsista;
-import entities.Test;
 
 public class Program {
 
 	public static void main(String[] args) {
 
 		String path = "D:\\Programming\\GitHub\\IT15\\br-capes-bolsistas-uab.txt";
-		
+
 		List<Bolsista> list = new ArrayList<Bolsista>();
 
 		try (BufferedReader br = new BufferedReader(new FileReader(path))) {
